@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="Recomeço Verde — A Green New Beginning">
+<meta property="og:description" content="A 30-bed rehabilitation facility built with the forest, under the intact canopy of Príncipe's UNESCO Biosphere Reserve. Zero clearance. USD 800K–1M.">
+<meta property="og:image" content="https://super-pudding-88b59c.netlify.app/img/hero_atelier.jpg">
+<meta property="og:type" content="website">
+<title>Recomeço Verde — A Green New Beginning | Príncipe</title>
+<style>
+:root{--canopy:#1B3A2D;--forest:#2C5F2D;--moss:#97BC62;--cream:#F5F5F0;--gold:#D4A843;--earth:#A0522D;--cacao:#3B2314}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Calibri,'Segoe UI',Helvetica,Arial,sans-serif;background:var(--cream);color:#2a2a25;line-height:1.65}
+h1,h2,h3,.serif{font-family:Georgia,'Times New Roman',serif}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;background:url('/img/hero_atelier.jpg') center/cover no-repeat}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(27,58,45,.25) 0%,rgba(27,58,45,.05) 40%,rgba(27,58,45,.88) 100%)}
+.hero-inner{position:relative;z-index:2;padding:6vw;max-width:1100px}
+.langbtn{position:absolute;top:22px;right:24px;z-index:9;background:rgba(27,58,45,.75);border:1px solid var(--moss);color:var(--cream);padding:.45rem 1.1rem;border-radius:999px;font-size:.9rem;font-weight:bold;text-decoration:none;letter-spacing:.06em}
+.langbtn:hover{background:var(--forest)}
+.hero .kicker{color:var(--gold);letter-spacing:.18em;font-size:.85rem;text-transform:uppercase;font-weight:bold}
+.hero h1{color:var(--cream);font-size:clamp(2.4rem,6vw,4.6rem);line-height:1.05;margin:.3em 0 .2em}
+.hero p{color:#dfe8df;font-size:clamp(1rem,2vw,1.3rem);max-width:640px;font-style:italic;font-family:Georgia,serif}
+.badges{margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.6rem}
+.badge{background:rgba(245,245,240,.12);border:1px solid var(--moss);color:var(--cream);padding:.35rem .9rem;border-radius:999px;font-size:.85rem}
+section{padding:5rem 6vw}
+.narrow{max-width:880px;margin:0 auto}
+.kicker2{color:var(--forest);letter-spacing:.16em;font-size:.8rem;text-transform:uppercase;font-weight:bold}
+h2{color:var(--canopy);font-size:clamp(1.7rem,3.4vw,2.6rem);margin:.35em 0 .55em}
+.lede{font-size:1.13rem;color:#3c3c34}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:3rem auto 0;max-width:1100px}
+.stat{border-radius:12px;padding:1.4rem 1.2rem;color:var(--cream)}
+.stat b{display:block;font-size:2rem;font-family:Georgia,serif}
+.stat span{font-size:.9rem;opacity:.92}
+.s1{background:var(--canopy)}.s1 b{color:var(--gold)}
+.s2{background:var(--forest)}
+.s3{background:var(--earth)}
+.s4{background:var(--gold);color:var(--cacao)}
+.full{padding:0;background:var(--canopy);max-width:1700px;margin:0 auto}
+.full img{height:auto}
+.planwrap{max-width:1050px;margin:2.5rem auto 0;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 14px rgba(27,58,45,.12)}
+.planwrap img{width:100%;display:block}
+.full img{width:100%;display:block}
+.capbar{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding:1.1rem 6vw;background:var(--canopy)}
+.capbar h3{color:var(--cream);font-size:1.15rem}
+.capbar span{color:var(--gold);font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:22px;max-width:1400px;margin:2.5rem auto 0}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 14px rgba(27,58,45,.10)}
+.card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.card .pad{padding:1.1rem 1.25rem 1.35rem}
+.card h3{color:var(--canopy);font-size:1.28rem;margin-bottom:.35rem}
+.card p{font-size:1.02rem;color:#55554a}
+.dark{background:var(--canopy)}
+.dark .kicker2{color:var(--moss)}
+.dark h2{color:var(--cream)}
+.dark .lede{color:#cfdacf}
+.loopimg{max-width:1100px;margin:2.5rem auto 0;display:block;width:100%;border-radius:14px}
+.chain{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:2.2rem}
+.chip{background:rgba(245,245,240,.08);border:1px solid var(--moss);color:var(--cream);border-radius:10px;padding:.8rem 1.1rem;font-size:.95rem;text-align:center;min-width:150px}
+.chip small{display:block;color:var(--gold);margin-top:.15rem}
+.arrow{align-self:center;color:var(--gold);font-size:1.3rem}
+.partners{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;max-width:1100px;margin:2.5rem auto 0}
+.partner{background:#fff;border-radius:12px;padding:1.2rem 1.3rem;box-shadow:0 2px 10px rgba(27,58,45,.08)}
+.partner h3{color:var(--forest);font-size:1.05rem}
+.partner p{font-size:.9rem;color:#55554a;margin-top:.25rem}
+footer{background:var(--cacao);color:#e8e0d4;padding:3.5rem 6vw}
+footer .cols{display:flex;flex-wrap:wrap;gap:2.5rem;justify-content:space-between;max-width:1200px;margin:0 auto}
+footer h3{color:var(--gold);font-family:Georgia,serif}
+footer p{font-size:.95rem}
+footer .fine{margin-top:2.5rem;font-size:.8rem;color:#a89880;font-style:italic;text-align:center}
+.note{background:#eef0e6;border-radius:12px;padding:1rem 1.3rem;margin-top:2rem;font-size:.92rem;color:#4c5546}
+@media (max-width:640px){section{padding:3.5rem 5vw}.grid{grid-template-columns:1fr}}
+#lb{display:none;position:fixed;inset:0;background:rgba(8,18,13,.96);z-index:999;cursor:zoom-out;align-items:center;justify-content:center}
+#lb img{max-width:97vw;max-height:97vh;object-fit:contain}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <a class="langbtn" href="/">PT · Português</a>
+  <div class="hero-inner">
+    <div class="kicker">UNODC · UN Peacebuilding Fund · Government of São Tomé and Príncipe</div>
+    <h1>Recomeço Verde</h1>
+    <p>A green new beginning — a rehabilitation facility built <em>with</em> the forest, under the intact canopy of Príncipe's UNESCO Biosphere Reserve.</p>
+    <div class="badges">
+      <span class="badge">30 beds · 6 modular lodges</span>
+      <span class="badge">Zero forest clearance</span>
+      <span class="badge">USD 800K–1M facility</span>
+      <span class="badge">APAC-inspired rehabilitation</span>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="narrow">
+    <div class="kicker2">The problem</div>
+    <h2>Príncipe has no lawful detention capacity</h2>
+    <p class="lede">An autonomous region should have its own justice infrastructure — and Príncipe’s leaders are right to want it. Today, the region’s autonomy stops at the courtroom door. Its only detention capacity is two 48-hour holding cells at the Comando Geral — rain-flooded, unsecured, and pressed into open-ended preventative detention. The receiving room where women report domestic violence shares a wall with those cells, and victims walk past the holding yard to reach it. Everyone sentenced is shipped across the sea to São Tomé — severed from family, community, and any path back. The conventional answer on the table is a USD 2.5–4 million concrete compound that would clear 7,816 m² of primary Biosphere forest. It is unfundable, oversized for a caseload of 10–15 prisoners a year, and indefensible in the one place on Earth whose brand <em>is</em> its forest.</p>
+    <p class="lede" style="margin-top:1rem"><strong>Recomeço Verde proposes the opposite:</strong> a low-security, rehabilitation-centred facility elevated on fully reversible screw-piles beneath the canopy — the same methodology as Príncipe's award-winning Sundy Praia eco-lodge — where residents learn cacao, vanilla and spice production tied to the island's premium value chains, and leave with seedlings, tools, and a standing buyer. <strong>This is not the alternative to a facility — it is how Príncipe actually gets one:</strong> fundable, buildable, and the first of its kind anywhere. The facility that completes the region’s autonomy also puts it at the front line of global corrections practice.</p>
+  </div>
+  <div class="stats">
+    <div class="stat s1"><b>USD 800K–1M</b><span>facility only — versus USD 2.5–4M conventional</span></div>
+    <div class="stat s2"><b>30 beds</b><span>20 male / 10 female — six 5-bed lodges, allocation shifts lodge-by-lodge</span></div>
+    <div class="stat s3"><b>0 m² cleared</b><span>canopy intact; 100% reversible construction</span></div>
+    <div class="stat s4"><b>~15%</b><span>recidivism across 69 APAC facilities in Brazil, at ⅓ the cost per prisoner</span></div>
+  </div>
+</section>
+
+<div class="full">
+  <img src="/img/aerial.jpg" alt="Aerial comparison: intact canopy versus cleared conventional compound">
+  <div class="capbar"><h3 class="serif">Two futures for the same forest — the actual site</h3><span>Real satellite imagery, Porto Real, Príncipe · conventional compound shown at true scale (104 × 75 m)</span></div>
+</div>
+
+<section>
+  <div class="narrow" style="text-align:center">
+    <div class="kicker2">Life under the canopy</div>
+    <h2>An eco-lodge that happens to be secure</h2>
+    <p class="lede">Locked lodges at night, supervised movement by day, physical male/female separation — security through design, dignity by default. No bars. No barbed wire. No towers. Admission is by individual risk assessment, and on a 139 km² island with one airstrip and one port, the sea itself is the perimeter. Today, reporting abuse on Príncipe means walking past the accused. <strong>Recomeço Verde ends that.</strong></p>
+  </div>
+  <div class="grid">
+    <div class="card"><img src="/img/lodges.jpg" alt="Modular mini-dorm lodges"><div class="pad"><h3>Where residents live</h3><p>Six modular five-bed lodges under intact canopy — bolt locks and storm shutters at night, a 10,000 L rainwater tank, and greywater feeding the banana circles.</p></div></div>
+    <div class="card"><img src="/img/hero_atelier.jpg" alt="Vanilla and cacao curing atelier"><div class="pad"><h3>Where skills become livelihoods</h3><p>The curing atelier: vanilla graded into cedar conditioning boxes, cacao fermented to export standard — the productive heart of the facility.</p></div></div>
+    <div class="card"><img src="/img/agro.jpg" alt="Under-canopy agroforestry"><div class="pad"><h3>A working farm under the canopy</h3><p>Shade-grown forastero cacao, hand-pollinated vanilla, pepper, cinnamon and coffee — between and around the structures, never instead of the forest.</p></div></div>
+    <div class="card"><img src="/img/solar.jpg" alt="Solar and water hub"><div class="pad"><h3>Off-grid by design</h3><p>Solar and battery in a natural canopy light-well; rain harvested into twin 10,000 L tanks with gravity sand filtration.</p></div></div>
+    <div class="card"><img src="/img/nursery.jpg" alt="Nursery and composting"><div class="pad"><h3>The loop closes here</h3><p>The Viveiro Recomeço nursery and composting bays — where every graduate's exit-package seedlings are raised.</p></div></div>
+    <div class="card"><img src="/img/treehouse.jpg" alt="Counselling and education treehouse"><div class="pad"><h3>Where the change happens</h3><p>The counselling treehouse: classroom and one-on-one counselling high in the cooler air, a full solar roof, and vanilla vines climbing the very stilts that hold it up.</p></div></div>
+    <div class="card"><img src="/img/pitch.jpg" alt="Community drying yard and football pitch"><div class="pad"><h3>Shared with the community</h3><p>The red-sand pitch: solar drying yard in the morning, the village football ground in the afternoon.</p></div></div>
+    <div class="card"><img src="/img/perimeter.jpg" alt="Living fence bio-perimeter cross-section"><div class="pad"><h3>Security without walls</h3><p>The living fence: a thorn-thicket barrier, ironwood tutor trees carrying vanilla vines, and a discreet ankle-height sensor line.</p></div></div>
+    <div class="card"><img src="/img/siteplan.jpg" alt="Design-intent site plan on real satellite imagery" style="object-position:top"><div class="pad"><h3>The real layout, on the real land</h3><p>The design-intent site plan drawn to scale on actual satellite imagery — the facility rides the existing track beside the football pitch. Click to explore.</p></div></div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="narrow" style="text-align:center">
+    <div class="kicker2">The site, exactly</div>
+    <h2>Every building in its place</h2>
+    <p class="lede">To scale on the actual imagery: the gate at the pitch corner, services along the existing sunken lane, the counselling treehouse at the Y junction, and the two clusters on separate arms. Click the plan to enlarge.</p>
+  </div>
+  <div class="planwrap"><img src="/img/siteplan.jpg" alt="Recomeço Verde design-intent site plan on satellite imagery"></div>
+</section>
+
+<section class="dark">
+  <div class="narrow" style="text-align:center">
+    <div class="kicker2">Nothing wasted</div>
+    <h2>Four closed loops</h2>
+    <p class="lede">Water, energy, nutrients and livelihoods each feed the next step — the facility works the way the forest does.</p>
+  </div>
+  <img class="loopimg" src="/img/loops.jpg" alt="Closed-loop systems diagram">
+  <div class="chain">
+    <div class="chip">Vocational training<small>CBT + agro-skills</small></div><div class="arrow">→</div>
+    <div class="chip">Production<small>cacao · vanilla · spices</small></div><div class="arrow">→</div>
+    <div class="chip">Market access<small>Corallo · Diogo Vaz</small></div><div class="arrow">→</div>
+    <div class="chip">Revenue<small>offsets a share of costs (yr 3+)</small></div><div class="arrow">→</div>
+    <div class="chip">Exit package<small>seedlings · tools · buyer</small></div>
+  </div>
+</section>
+
+<section>
+  <div class="narrow" style="text-align:center">
+    <div class="kicker2">Why partner</div>
+    <h2>A narrative donors want to fund</h2>
+    <p class="lede" style="margin-top:.5rem">Something genuinely groundbreaking: a heartfelt, productive institution that fuses rehabilitation, environmental restoration, respect for the Biosphere, and private-sector engagement — on the island best placed on Earth to prove it works.</p>
+  </div>
+  <div class="partners">
+    <div class="partner"><h3>A working contribution to the Biosphere</h3><p>Not merely compatible — the facility actively restores: agroforestry over degraded patches, a native-species nursery, environmental education, zero-carbon operations. The Natural Dividend logic, applied to justice — direct synergy with the Faya Foundation's USD 17.6M programme.</p></div>
+    <div class="partner"><h3>Proven on this island</h3><p>HBD's Sundy Praia eco-lodge pioneered the exact screw-pile, under-canopy methodology — the architectural precedent stands 20 minutes away.</p></div>
+    <div class="partner"><h3>Completes the justice chain</h3><p>The final link in the PBF digital justice chain: from rights awareness to post-release reintegration — a first for a small island developing state.</p></div>
+    <div class="partner"><h3>Commercial, not charity</h3><p>Claudio Corallo and Diogo Vaz buy premium output; HBD anchors eco-tourism. Private-sector engagement on commercial terms.</p></div>
+  </div>
+  <div class="note narrow" style="margin-top:1rem"><strong>For the Regional Authority:</strong> Recomeço Verde completes Príncipe’s institutional autonomy — justice served on the island, families intact, sentences that end in skills rather than severance — and gives the region a facility no other jurisdiction on Earth can show. Delegations will come to Príncipe to study it.</div>
+<div class="note narrow"><strong>Why 30 beds:</strong> 10–15 admissions a year across multi-year sentences means 25–35 residents at steady state — and reporting is rising as trust builds, with the DireitosAoPovo rights platform about to amplify it further. There is no overflow on Príncipe; the outer limit is the design limit. The site itself sits in the hills above Porto Real — noticeably cooler than Santo António, a natural advantage for residents, staff and curing sheds alike.</div>
+<div class="note narrow"><strong>Status:</strong> preliminary concept for discussion with the Ministry of Justice and the Regional Autonomous Authority of Príncipe. It does not represent a commitment by UNODC or any partner organisation; partnership references are indicative. Cost estimates require validation through detailed design.</div>
+</section>
+
+<footer>
+  <div class="cols">
+    <div>
+      <h3>Recomeço Verde</h3>
+      <p>UNODC Programme Office, São Tomé and Príncipe<br>United Nations Peacebuilding Fund Joint Programme<br>with UNDP and OHCHR</p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Andrew Harrington<br>Programme Coordinator / Head of Office<br>M: +239 994 8088</p>
+    </div>
+  </div>
+  <p class="fine">Concept v1.6 · July 2026 · Visualisations are AI-assisted concept renderings, not architectural drawings. Canopy shown transparent in site views for visualisation only — no trees removed.</p>
+</footer>
+
+<div id="lb"><img id="lbi" alt=""></div>
+<script>
+var lb=document.getElementById('lb'),lbi=document.getElementById('lbi');
+document.querySelectorAll('.card img,.full img,.loopimg,.planwrap img').forEach(function(im){
+  im.style.cursor='zoom-in';
+  im.addEventListener('click',function(){lbi.src=im.src;lb.style.display='flex';});
+});
+lb.addEventListener('click',function(){lb.style.display='none';});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.style.display='none';});
+</script>
+</body>
+</html>
